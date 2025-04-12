@@ -1,5 +1,6 @@
 |-- .dockerignore
 |-- .editorconfig
+|-- .env
 |-- .env.example
 |-- .gitattributes
 |-- .gitignore
@@ -68,6 +69,7 @@
         |-- DatabaseSeeder.php
 |-- Dockerfile
 |-- LICENSE
+|-- package-lock.json
 |-- package.json
 |-- phpunit.xml
 |-- public
@@ -123,10 +125,30 @@
         |-- .gitignore
         |-- sessions
             |-- .gitignore
+            |-- 0UqvPB8YlIZAg48ceabLZ28nkRAmIgtafPyDqNQ3
+            |-- tvVoMtfe3eBzRi00AY8JqqBepRBKvoDnRo6mCdMQ
         |-- testing
             |-- .gitignore
         |-- views
             |-- .gitignore
+            |-- 1536058a84477c3bfadd245aa8b3561c.php
+            |-- 21dd8522bc08025de822975959cb808f.php
+            |-- 29b30517cfbe4a1a218a561395708ff0.php
+            |-- 378c4654c297fdfeab1eb49a08ed5c66.php
+            |-- 4c81e786599267fce5eafc1f96311c35.php
+            |-- 63c7cd28a6a1f1f7233750ceff9c0d93.php
+            |-- 63cafe932a33d5e42b45cb881ff794eb.php
+            |-- 664d4d2a517c9985f47d42cef4b93ac4.php
+            |-- 6d91092f5149ebcd6ca04e430606e053.php
+            |-- 730ea8215443f443099834ad8dd52084.php
+            |-- 81afae512fb34f0a2e738417cd0436be.php
+            |-- a18f165715ff0513b2137a041ba34f61.php
+            |-- a7a92e4bb5bb6d38a197db310917bcfe.php
+            |-- bd211c2d4d102e68f57fd13970ede23c.php
+            |-- d03007bcadac1e2d53b02f6bb69fdcac.php
+            |-- d7ef35a7eecc0f1724ae922ca0cc3d34.php
+            |-- eb0e76020f8ee7b9ef9b5dbdf6035915.php
+            |-- fa76b7e34b5cecfdda464866793d281e.php
 |-- tests
     |-- CreatesApplication.php
     |-- Feature
@@ -135,6 +157,7 @@
     |-- Unit
         |-- ExampleTest.php
 |-- vendor
+    |-- autoload.php
     |-- bin
         |-- carbon
         |-- carbon.bat
@@ -189,9 +212,18 @@
                         |-- DateTimeImmutableType.php
                         |-- DateTimeType.php
     |-- composer
+        |-- autoload_classmap.php
+        |-- autoload_files.php
+        |-- autoload_namespaces.php
+        |-- autoload_psr4.php
+        |-- autoload_real.php
+        |-- autoload_static.php
+        |-- ClassLoader.php
         |-- installed.json
         |-- installed.php
         |-- InstalledVersions.php
+        |-- LICENSE
+        |-- platform_check.php
     |-- dflydev
         |-- dot-access-data
             |-- CHANGELOG.md
@@ -9396,4 +9428,17 @@
                 |-- InvalidArgumentException.php
                 |-- Mixin.php
     |-- _laravel_ide
+        |-- discover-1180853afdec2df68b8101f27487d6f9.php
+        |-- discover-1e7ea3cf42a2f9b84f3de09530e2c135.php
+        |-- discover-31b934f114eabc246b541addb8b458e3.php
+        |-- discover-67043687ec5f16a5c4357b3dc049d2d5.php
+        |-- discover-6f0f1acd77de9f7869cf9462ed4d802b.php
+        |-- discover-7563160ca998bde672640aa1e68dfd08.php
+        |-- discover-77e9e6a2445455b87d4f4cd834e4e23d.php
+        |-- discover-9abd86d674d0ba851f4ac7b31349196a.php
+        |-- discover-ea280fb1636eb761c4fd23f76666e397.php
+        |-- _auth.php
+        |-- _facade.php
+        |-- _model_helpers.php
+        |-- _request.php
 |-- webpack.mix.js
